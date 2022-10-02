@@ -1,0 +1,123 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+body{
+    
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: black;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    background-image: url(images/backgroundIMG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.logo, .TopMenu{
+    display:inline-block;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.TopMenu li{ 
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+
+}
+
+.TopMenu a{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+
+.TopMenu a:hover{
+    color: rgb(49, 194, 16);
+    
+}
+
+.logo h1{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    vertical-align: middle;
+    color:white;
+}
+
+.Sigin{
+   text-align: right;
+}
+li:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+
+
+.Main-window{
+    margin: 50px auto;
+    background: black;
+    height: 800px;
+    width: 900px;
+    padding: 20px;
+    box-shadow: 2px 2px 15px rgb(49, 194, 16);
+    border-radius: 20px;
+    color: white;
+    
+}
+
+.Window-light{
+    margin: 0px;
+    background: black;
+    height: 400px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 2px 2px 15px rgb(49, 194, 16);
+    border-radius: 20px;
+    color: rgb(49, 194, 16);
+}
+
+.window-big{
+    margin: 30px 30px 10px 0px;
+    background: black;
+    height: 290px;
+    width: 850px;
+    padding: 20px;
+    box-shadow: 2px 2px 15px rgb(49, 194, 16);
+    border-radius: 20px;
+    color: rgb(49, 194, 16);
+}
+
+
+button{
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color:white;
+    background-color: rgb(49, 194, 16);
+    border: none;
+    box-shadow: 2px 2px 15px rgb(49, 194, 16);
+    border-radius: 20px;
+}
+button:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+

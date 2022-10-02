@@ -1,0 +1,112 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+body{
+    
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: black;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    background-image: url(images/backgroundIMG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.logo, .TopMenu{
+    display:inline-block;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.TopMenu li{ 
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+
+}
+
+.TopMenu a{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+
+.TopMenu a:hover{
+    color: rgb(49, 194, 16);
+    
+}
+.logo h1{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    vertical-align: middle;
+    color:white;
+}
+
+.Sigin{
+   text-align: right;
+}
+li:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+
+
+.Main-window{
+    margin: 50px auto;
+    background: black;
+    height: 800px;
+    width: 900px;
+    padding: 20px;
+    box-shadow: 2px 2px 15px rgb(49, 194, 16);
+    border-radius: 20px;
+    color: white;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    color:  rgb(255, 255, 255);
+}
+td{
+   color:  rgb(49, 194, 16);
+}
+.First-Colum{
+    color: white;
+}
+
+
+footer p{
+    font-family: 'Chakra Petch', sans-serif;
+    color:rgb(49, 194, 16);
+    text-decoration:none;
+}
+footer{
+    
+    border: 2px solid rgb(49, 194, 16);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 240px;
+}
