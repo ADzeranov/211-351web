@@ -18,7 +18,7 @@ h1{
 form{
     margin: 30px auto;
     background: black;
-    height: 300px;
+    height: 400 px;
     width: 450px;
     padding: 20px;
     box-shadow: 2px 2px 15px rgb(49, 194, 16);
@@ -72,4 +72,13 @@ button:hover{
     opacity: .80;
     font-weight: bold;
     transform: scale(1.1);
+}
+
+button a{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
 }
