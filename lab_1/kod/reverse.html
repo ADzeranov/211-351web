@@ -6,67 +6,67 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="reverse.css">
     </head>
     <body>
         <form method="POST" action="https://httpbin.org/post">
-            <h1 title="Форма регестрации">REGISTER</h1>
+            <h1 title="Форма регестрации">РЕГИСТРАЦИЯ</h1>
             <div class="group">
                 <fieldset>
-                    <legend>feedback form</legend>
+                    <legend></legend>
                     <div>
-                        <label for="flID">Full name</label>
-                        <input type="text" name="FullName" id="flID" placeholder="ФИО" required>
+                        <label for="flID"></label>
+                        <input type="text" name="FullName" id="flID" placeholder="Ваше имя" required>
                     </div>
                     <div class="">
-                        <label for="emailID">email</label>
-                        <input type="email"name="email" id="emailID" placeholder="Введите электронную почту" required>
+                        <label for="emailID"></label>
+                        <input type="email"name="email" id="emailID" placeholder="Введите email " required>
                     </div>  
 
                     
 
                     <div>
                         <input type="radio" id="InternetID" name="lbt" value="reverse" checked>
-                        <label for="InternetID">Internet</label>
+                        <label for="InternetID">Интернет</label>
                     </div>
                 
                     <div>
                         <input type="radio" id="FriensID" name="lbt" value="reverse">
-                        <label for="FriensID">Friens</label>
+                        <label for="FriensID">Друзья</label>
                     </div>
                 
                     <div>
                         <input type="radio" id="AnotherID" name="lbt" value="reverse">
-                        <label for="AnotherID">Another</label>
+                        <label for="AnotherID">Другое</label>
                     </div>
 
                     <div>
-                        <label for="categoryID">CATEGORY OF APPEAL</label>
+                        <label for="categoryID">Сообщение</label>
                         <select name="category" id ="categoryID">
-                            <option value="Claim">Claim</option>
-                            <option value="Offer">Offer</option>
+                            <option value="Claim">Отзыв</option>
+                            <option value="Offer">Жалоба</option>
                         </select>
                     </div>
                     
                     <div>
-                        <label for="message">Text message</label>
+                        <label for="message">Текст Сообщения</label>
                         <textarea name="message" cols="40" rows="10">Впишите жалобу/предложение сюда</textarea>
                     </div>
 
                     <div>
-                        <label for="attachmentID">Attachments</label>
+                        <label for="attachmentID">Вложения</label>
                         <input type="file" name="attachment" id="attachmentID">
                     </div>
 
                     <div>
                         <input type="checkbox" name="agreement" id="agreementID" value="true" required>
-                        <label for="agreement">I agree with the processing of personal data</label>
+                        <label for="agreement">Я согласен с обработкой персональных данных</label>
                     </div>
 
                 </fieldset>
-                <center><button type ="submit">Register</button></center>
+                <center><button type ="submit">регестрация</button></center>
             </div>
         </form>
     </body>
