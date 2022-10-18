@@ -133,10 +133,57 @@ footer{
     font-weight: bold;
     width: 240px;
 }
-
-a{
+ul p{
     color: #8d8176;
     text-decoration: none !important;
     border: none !important;
     }
+.a-solo{
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+    color:white;
+    font-weight: bold;
+    }
 
+.back{
+    font-family: 'Jura', sans-serif;
+
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+
+    display: inline-block;
+    margin-right: 25px;
+    transition: 0.2s;
+}
+.back:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+    color: rgb(49, 194, 16);
+}
+.text-c{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.text-p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text-a{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    }
+.text-a:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+    color: rgb(49, 194, 16);
+}

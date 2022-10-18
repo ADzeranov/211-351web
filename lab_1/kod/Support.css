@@ -81,7 +81,64 @@ li:hover{
     color: white;
 
 }
+.container-1{
+    display: flex;
+    justify-content: space-around;
+}
+.container-2{
+    display: flex;
+    justify-content: space-around;
+}
+.container-3{
+    display: flex;
+    justify-content: space-around;
+}
+.container-4{
+    display: flex;
+    justify-content: space-around;
+}
 
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+.box{
+    margin: 30px 0px 0px 0px;
+    background: rgb(49, 194, 16);
+    height: 300px;
+    padding: 0px;
+    
+    border-radius: 20px;
+    color:black;
+    text-align: center;
+    transition: 0.2s;
+}
+.box:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+
+footer p{
+    font-family: 'Jura', sans-serif;
+    color:rgb(49, 194, 16);
+    text-decoration:none;
+}
+footer{
+    font-family: 'Jura', sans-serif;
+    border: 2px solid rgb(49, 194, 16);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 240px;
+}
+
+a{
+    color: #8d8176;
+    text-decoration: none !important;
+    border: none !important;
+    }
 table{
     border-collapse: collapse;
 }
@@ -99,16 +156,3 @@ td{
 }
 
 
-footer p{
-    font-family: 'Jura', sans-serif;
-    color:rgb(49, 194, 16);
-    text-decoration:none;
-}
-footer{
-    font-family: 'Jura', sans-serif;
-    border: 2px solid rgb(49, 194, 16);
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    width: 240px;
-}
