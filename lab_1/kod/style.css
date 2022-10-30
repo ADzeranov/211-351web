@@ -140,3 +140,18 @@ a{
     border: none !important;
     }
 
+    table{
+        border-collapse: collapse;
+    }
+    th, td{
+        border: 1px solid white;
+        text-align: center;
+        padding: 10px;
+        color:  rgb(255, 255, 255);
+    }
+    td{
+       color:  rgb(49, 194, 16);
+    }
+    .First-Colum{
+        color: white;
+    }
