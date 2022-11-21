@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <title>Дзеранов Артур 211-351</title>
         <meta charset="UTF-8">
@@ -11,10 +11,14 @@
         <link rel="stylesheet" href="regpart2.css">
     </head>
 
-    <header>
-        <a class ="back" href="index.html">← Назад в каталог</a>
-    </header>
+    
+
     <body>
+        <header>
+            <a class ="back" href="index.html">← Назад в каталог</a>
+        </header>
+
+
         <form method="POST" action="https://httpbin.org/post">
             <h1 title="Форма регестрации">РЕГИСТРАЦИЯ</h1>
             <div class="group">
@@ -26,7 +30,7 @@
                     </div>
                     <div>
                         <label for="emailID"></label>
-                        <input type="email"name="email" id="emailID" placeholder="Введите email " required>
+                        <input type="email" name="email" id="emailID" placeholder="Введите email " required>
                     </div>  
 
                     
@@ -55,7 +59,7 @@
                     </div>
                     
                     <div>
-                        <label for="message">Текст Сообщения</label>
+                        <label>Текст Сообщения</label>
                         <textarea name="message" cols="40" rows="10">Впишите жалобу/предложение сюда</textarea>
                     </div>
 
@@ -66,7 +70,7 @@
 
                     <div>
                         <input type="checkbox" name="agreement" id="agreementID" value="true" required>
-                        <label for="agreement">Я согласен с обработкой персональных данных</label>
+                        <label>Я согласен с обработкой персональных данных</label>
                     </div>
 
                 </fieldset>
