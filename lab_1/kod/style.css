@@ -165,17 +165,6 @@ header{
     display: flex;
     justify-content: center;
 }
-body{
-    font-family: 'Jura', sans-serif;
-
-    background-color: black;
-    color: white;
-    background-image: url(images/backgroundIMG.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 
 
 .logo, .TopMenu{

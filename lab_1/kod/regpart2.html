@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Дзеранов Артур 211-351</title>
+        <meta charset="UTF-8">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="regpart2.css">
+    </head>
+
+    <header>
+        <a class ="back" href="index.html">← Назад в каталог</a>
+    </header>
+    <body>
+        <form method="POST" action="https://httpbin.org/post">
+            <h1 title="Форма регестрации">РЕГИСТРАЦИЯ</h1>
+            <div class="group">
+                <fieldset>
+                    <legend></legend>
+                    <div>
+                        <label for="flID"></label>
+                        <input type="text" name="FullName" id="flID" placeholder="Ваше имя" required>
+                    </div>
+                    <div>
+                        <label for="emailID"></label>
+                        <input type="email"name="email" id="emailID" placeholder="Введите email " required>
+                    </div>  
+
+                    
+
+                    <div>
+                        <input type="radio" id="InternetID" name="lbt" value="reverse" checked>
+                        <label for="InternetID">Интернет</label>
+                    </div>
+                
+                    <div>
+                        <input type="radio" id="FriensID" name="lbt" value="reverse">
+                        <label for="FriensID">Друзья</label>
+                    </div>
+                
+                    <div>
+                        <input type="radio" id="AnotherID" name="lbt" value="reverse">
+                        <label for="AnotherID">Другое</label>
+                    </div>
+
+                    <div>
+                        <label for="categoryID">Сообщение</label>
+                        <select name="category" id ="categoryID">
+                            <option value="Claim">Отзыв</option>
+                            <option value="Offer">Жалоба</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="message">Текст Сообщения</label>
+                        <textarea name="message" cols="40" rows="10">Впишите жалобу/предложение сюда</textarea>
+                    </div>
+
+                    <div>
+                        <label for="attachmentID">Вложения</label>
+                        <input type="file" name="attachment" id="attachmentID">
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="agreement" id="agreementID" value="true" required>
+                        <label for="agreement">Я согласен с обработкой персональных данных</label>
+                    </div>
+
+                </fieldset>
+                <center><button type ="submit">регестрация</button></center>
+            </div>
+        </form>
+    </body>
+    
+</html>
