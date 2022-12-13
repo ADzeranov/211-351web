@@ -237,7 +237,12 @@ button:hover{
     color: rgb(49, 194, 16);
 }
 /*feedback end*/
+@media print{
+  header footer .AllHederMenu{
+    display: none;
+  }
 
+}
 
 
 

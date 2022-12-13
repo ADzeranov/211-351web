@@ -205,11 +205,11 @@ ul p{
 
 
 @media print{
-    body{
-        visibility: hidden;
+    header .AllHederMenu{
+      display: none;
     }
-    .print{
-        visibility: visible;
+    footer{
+      display: none;
     }
 }
 
